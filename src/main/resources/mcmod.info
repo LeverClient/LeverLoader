@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "leverloader",
+    "name": "LeverLoader for LeverClient",
+    "description": "Main mod for LeverClient",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList":
+    [
+      "LeverClient"
+    ],
+    "credits": "Special thanks to boo_boo_cat123",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

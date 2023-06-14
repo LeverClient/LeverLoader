@@ -1,0 +1,315 @@
+Symbol range map extraction starting
+Processing 5 files
+processing net\LeverLoader\main\Commands.java
+@|net\LeverLoader\main\Commands.java|8|28|net.LeverLoader.main|package|net.LeverLoader.main|(file)
+Class Start: net.LeverLoader.main.Commands
+   @|net\LeverLoader\main\Commands.java|327|333|String|class|java.lang.String
+   @|net\LeverLoader\main\Commands.java|336|345|mainTheme|field|net.LeverLoader.main.Commands|mainTheme|
+   @|net\LeverLoader\main\Commands.java|352|358|String|class|java.lang.String
+   @|net\LeverLoader\main\Commands.java|597|603|String|class|java.lang.String
+   @|net\LeverLoader\main\Commands.java|604|613|mainColor|field|net.LeverLoader.main.Commands|mainColor|
+   Method Start: saveConfig(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|639|649|saveConfig|method|net.LeverLoader.main.Commands|saveConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|650|696|net.minecraftforge.common.config.Configuration|class|net.minecraftforge.common.config.Configuration
+      @|net\LeverLoader\main\Commands.java|697|703|config|param|net.LeverLoader.main.Commands|saveConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|config|0
+      @|net\LeverLoader\main\Commands.java|705|711|String|class|java.lang.String
+      @|net\LeverLoader\main\Commands.java|712|720|Category|param|net.LeverLoader.main.Commands|saveConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|Category|1
+      @|net\LeverLoader\main\Commands.java|736|744|Property|class|net.minecraftforge.common.config.Property
+      @|net\LeverLoader\main\Commands.java|753|759|config|param|net.LeverLoader.main.Commands|saveConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|config|0
+      @|net\LeverLoader\main\Commands.java|760|763|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|net\LeverLoader\main\Commands.java|764|772|Category|param|net.LeverLoader.main.Commands|saveConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|Category|1
+      @|net\LeverLoader\main\Commands.java|787|796|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|813|820|comment|field|net.minecraftforge.common.config.Property|comment
+      @|net\LeverLoader\main\Commands.java|896|899|set|method|net.minecraftforge.common.config.Property|set|(Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|900|909|mainColor|field|net.LeverLoader.main.Commands|mainColor
+   Method End: saveConfig(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+   Method Start: loadConfig(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|934|944|loadConfig|method|net.LeverLoader.main.Commands|loadConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|945|991|net.minecraftforge.common.config.Configuration|class|net.minecraftforge.common.config.Configuration
+      @|net\LeverLoader\main\Commands.java|992|998|config|param|net.LeverLoader.main.Commands|loadConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|config|0
+      @|net\LeverLoader\main\Commands.java|1000|1006|String|class|java.lang.String
+      @|net\LeverLoader\main\Commands.java|1007|1015|Category|param|net.LeverLoader.main.Commands|loadConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|Category|1
+      @|net\LeverLoader\main\Commands.java|1031|1040|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|1043|1049|config|param|net.LeverLoader.main.Commands|loadConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|config|0
+      @|net\LeverLoader\main\Commands.java|1050|1053|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|net\LeverLoader\main\Commands.java|1054|1062|Category|param|net.LeverLoader.main.Commands|loadConfig|(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V|Category|1
+      @|net\LeverLoader\main\Commands.java|1076|1085|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|1087|1096|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
+   Method End: loadConfig(Lnet/minecraftforge/common/config/Configuration;Ljava/lang/String;)V
+   Method Start: getCommandName()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|1141|1155|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|1134|1140|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|1223|1238|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|1216|1222|String|class|java.lang.String
+      @|net\LeverLoader\main\Commands.java|1239|1253|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|net\LeverLoader\main\Commands.java|1254|1260|sender|param|net.LeverLoader.main.Commands|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      @|net\LeverLoader\main\Commands.java|1306|1315|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|1356|1365|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1401|1410|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1446|1455|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1491|1500|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1536|1545|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1581|1590|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1626|1635|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+      @|net\LeverLoader\main\Commands.java|1671|1680|mainTheme|field|net.LeverLoader.main.Commands|mainTheme
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: canCommandSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+      @|net\LeverLoader\main\Commands.java|1738|1764|canCommandSenderUseCommand|method|net.minecraft.command.ICommand|canCommandSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z
+      @|net\LeverLoader\main\Commands.java|1765|1779|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|net\LeverLoader\main\Commands.java|1780|1786|sender|param|net.LeverLoader.main.Commands|canCommandSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z|sender|0
+   Method End: canCommandSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|1851|1865|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|net\LeverLoader\main\Commands.java|1866|1880|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|net\LeverLoader\main\Commands.java|1881|1887|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|1889|1895|String|class|java.lang.String
+      @|net\LeverLoader\main\Commands.java|1898|1902|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|1921|1925|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|net\LeverLoader\main\Commands.java|1961|1975|unknownCommand|method|net.LeverLoader.main.Commands|unknownCommand|()V
+      @|net\LeverLoader\main\Commands.java|2020|2024|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|2028|2039|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|2042|2048|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|net\LeverLoader\main\Commands.java|2056|2060|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|2064|2075|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|2078|2084|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|net\LeverLoader\main\Commands.java|2113|2127|unknownCommand|method|net.LeverLoader.main.Commands|unknownCommand|()V
+      @|net\LeverLoader\main\Commands.java|2156|2160|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|2164|2175|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|2251|2255|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|net\LeverLoader\main\Commands.java|2315|2321|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|2322|2336|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|2341|2358|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|2359|2374|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|2375|2381|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|2486|2490|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|2494|2505|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|2643|2649|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|2650|2664|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|2669|2686|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|2708|2717|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|2790|2796|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|2797|2811|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|2816|2833|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|2850|2859|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|2908|2917|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|3163|3169|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|3170|3184|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|3189|3206|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|3225|3234|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|3304|3310|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|3311|3325|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|3330|3347|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|3364|3373|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|3406|3415|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|3606|3612|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|3613|3627|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|3632|3649|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|3650|3665|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|3666|3672|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|3883|3889|sender|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|net\LeverLoader\main\Commands.java|3890|3904|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|3909|3926|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|4825|4829|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|net\LeverLoader\main\Commands.java|4881|4893|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\LeverLoader\main\Commands.java|4896|4905|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|net\LeverLoader\main\Commands.java|4906|4920|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|4925|4942|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|4981|4990|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|5046|5055|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|5171|5175|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|5179|5190|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|5814|5826|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\LeverLoader\main\Commands.java|5829|5838|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|net\LeverLoader\main\Commands.java|5839|5853|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|5858|5875|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|5876|5885|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|5947|5956|mainColor|field|net.LeverLoader.main.Commands|mainColor
+      @|net\LeverLoader\main\Commands.java|5965|5969|args|param|net.LeverLoader.main.Commands|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|net\LeverLoader\main\Commands.java|5973|5984|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|net\LeverLoader\main\Commands.java|6016|6022|Config|class|net.LeverLoader.main.Config
+      @|net\LeverLoader\main\Commands.java|6023|6041|SaveConfigSettings|method|net.LeverLoader.main.Config|SaveConfigSettings|()V
+      @|net\LeverLoader\main\Commands.java|6193|6205|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\LeverLoader\main\Commands.java|6208|6217|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|net\LeverLoader\main\Commands.java|6218|6232|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|6237|6254|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|6474|6488|unknownCommand|method|net.LeverLoader.main.Commands|unknownCommand|()V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: unknownCommand()V
+      @|net\LeverLoader\main\Commands.java|6538|6552|unknownCommand|method|net.LeverLoader.main.Commands|unknownCommand|()V
+      @|net\LeverLoader\main\Commands.java|6569|6581|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\LeverLoader\main\Commands.java|6584|6593|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|net\LeverLoader\main\Commands.java|6594|6608|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|net\LeverLoader\main\Commands.java|6613|6630|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|net\LeverLoader\main\Commands.java|6667|6676|mainColor|field|net.LeverLoader.main.Commands|mainColor
+   Method End: unknownCommand()V
+Class End  : net.LeverLoader.main.Commands
+endProcessing net\LeverLoader\main\Commands.java
+
+processing net\LeverLoader\main\Config.java
+@|net\LeverLoader\main\Config.java|8|28|net.LeverLoader.main|package|net.LeverLoader.main|(file)
+Class Start: net.LeverLoader.main.Config
+   @|net\LeverLoader\main\Config.java|154|160|String|class|java.lang.String
+   @|net\LeverLoader\main\Config.java|161|177|CATEGORY_GENERAL|field|net.LeverLoader.main.Config|CATEGORY_GENERAL|
+   @|net\LeverLoader\main\Config.java|209|222|Configuration|class|net.minecraftforge.common.config.Configuration
+   @|net\LeverLoader\main\Config.java|223|229|config|field|net.LeverLoader.main.Config|config|
+   Method Start: LoadConfigSettings(Ljava/io/File;)V
+      @|net\LeverLoader\main\Config.java|261|279|LoadConfigSettings|method|net.LeverLoader.main.Config|LoadConfigSettings|(Ljava/io/File;)V
+      @|net\LeverLoader\main\Config.java|280|284|File|class|java.io.File
+      @|net\LeverLoader\main\Config.java|285|295|configFile|param|net.LeverLoader.main.Config|LoadConfigSettings|(Ljava/io/File;)V|configFile|0
+      @|net\LeverLoader\main\Config.java|311|329|ReadConfigSettings|method|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V
+      @|net\LeverLoader\main\Config.java|330|340|configFile|param|net.LeverLoader.main.Config|LoadConfigSettings|(Ljava/io/File;)V|configFile|0
+   Method End: LoadConfigSettings(Ljava/io/File;)V
+   Method Start: SaveConfigSettings()V
+      @|net\LeverLoader\main\Config.java|378|396|SaveConfigSettings|method|net.LeverLoader.main.Config|SaveConfigSettings|()V
+      @|net\LeverLoader\main\Config.java|413|431|ReadConfigSettings|method|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V
+   Method End: SaveConfigSettings()V
+   Method Start: ReadConfigSettings(Ljava/io/File;Z)V
+      @|net\LeverLoader\main\Config.java|811|829|ReadConfigSettings|method|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V
+      @|net\LeverLoader\main\Config.java|830|834|File|class|java.io.File
+      @|net\LeverLoader\main\Config.java|835|845|configFile|param|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V|configFile|0
+      @|net\LeverLoader\main\Config.java|855|867|loadSettings|param|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V|loadSettings|1
+      @|net\LeverLoader\main\Config.java|1061|1073|loadSettings|param|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V|loadSettings|1
+      @|net\LeverLoader\main\Config.java|1097|1103|config|field|net.LeverLoader.main.Config|config
+      @|net\LeverLoader\main\Config.java|1110|1123|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|net\LeverLoader\main\Config.java|1124|1134|configFile|param|net.LeverLoader.main.Config|ReadConfigSettings|(Ljava/io/File;Z)V|configFile|0
+      @|net\LeverLoader\main\Config.java|1149|1155|config|field|net.LeverLoader.main.Config|config
+      @|net\LeverLoader\main\Config.java|1156|1160|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|net\LeverLoader\main\Config.java|1202|1208|config|field|net.LeverLoader.main.Config|config
+      @|net\LeverLoader\main\Config.java|1209|1213|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: ReadConfigSettings(Ljava/io/File;Z)V
+Class End  : net.LeverLoader.main.Config
+endProcessing net\LeverLoader\main\Config.java
+
+processing net\LeverLoader\main\LuckyBlockTimer.java
+@|net\LeverLoader\main\LuckyBlockTimer.java|8|28|net.LeverLoader.main|package|net.LeverLoader.main|(file)
+Class Start: net.LeverLoader.main.LuckyBlockTimer
+   @|net\LeverLoader\main\LuckyBlockTimer.java|465|483|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode|
+   Method Start: inLuckyBlock(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|521|533|inLuckyBlock|method|net.LeverLoader.main.LuckyBlockTimer|inLuckyBlock|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|535|558|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|net\LeverLoader\main\LuckyBlockTimer.java|559|564|event|param|net.LeverLoader.main.LuckyBlockTimer|inLuckyBlock|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|net\LeverLoader\main\LuckyBlockTimer.java|583|588|event|param|net.LeverLoader.main.LuckyBlockTimer|inLuckyBlock|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|net\LeverLoader\main\LuckyBlockTimer.java|589|596|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|net\LeverLoader\main\LuckyBlockTimer.java|597|613|getFormattedText|method|net.minecraft.util.IChatComponent|getFormattedText|()Ljava/lang/String;
+      @|net\LeverLoader\main\LuckyBlockTimer.java|616|624|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|net\LeverLoader\main\LuckyBlockTimer.java|715|721|System|class|java.lang.System
+      @|net\LeverLoader\main\LuckyBlockTimer.java|722|725|out|field|java.lang.System|out
+      @|net\LeverLoader\main\LuckyBlockTimer.java|726|733|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|782|796|isLuckyBlockGM|method|net.LeverLoader.main.LuckyBlockTimer|isLuckyBlockGM|()V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|815|833|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode
+      @|net\LeverLoader\main\LuckyBlockTimer.java|889|907|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode
+   Method End: inLuckyBlock(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+   Method Start: isLuckyBlockGM()V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|975|989|isLuckyBlockGM|method|net.LeverLoader.main.LuckyBlockTimer|isLuckyBlockGM|()V
+      @|net\LeverLoader\main\LuckyBlockTimer.java|1058|1063|Timer|class|java.util.Timer
+      @|net\LeverLoader\main\LuckyBlockTimer.java|1076|1081|Timer|class|java.util.Timer
+      @|net\LeverLoader\main\LuckyBlockTimer.java|1121|1130|TimerTask|class|java.util.TimerTask
+      @|net\LeverLoader\main\LuckyBlockTimer.java|1142|1151|TimerTask|class|java.util.TimerTask
+      Anon Class Start: net.LeverLoader.main.LuckyBlockTimer$1
+         Method Start: run()V
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1188|1191|run|method|java.lang.Runnable|run|()V
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1224|1236|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1239|1248|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1249|1263|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1268|1285|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1317|1327|Scoreboard|class|net.minecraft.scoreboard.Scoreboard
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1336|1348|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1351|1359|theWorld|field|net.minecraft.client.Minecraft|theWorld
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1360|1373|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1393|1408|ScorePlayerTeam|class|net.minecraft.scoreboard.ScorePlayerTeam
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1417|1431|ReadScoreboard|class|net.LeverLoader.main.ReadScoreboard
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1432|1444|readFromSlot|method|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1475|1487|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1490|1499|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1500|1514|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1519|1536|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1543|1557|getColorPrefix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorPrefix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1568|1582|getColorSuffix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorSuffix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1614|1628|getColorPrefix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorPrefix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1639|1653|getColorSuffix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorSuffix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1657|1665|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1721|1739|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1794|1808|getColorPrefix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorPrefix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1819|1833|getColorSuffix|method|net.minecraft.scoreboard.ScorePlayerTeam|getColorSuffix|()Ljava/lang/String;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1837|1845|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+            @|net\LeverLoader\main\LuckyBlockTimer.java|1903|1921|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode
+            @|net\LeverLoader\main\LuckyBlockTimer.java|2004|2016|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|net\LeverLoader\main\LuckyBlockTimer.java|2019|2028|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+            @|net\LeverLoader\main\LuckyBlockTimer.java|2029|2043|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+            @|net\LeverLoader\main\LuckyBlockTimer.java|2048|2065|ChatComponentText|class|net.minecraft.util.ChatComponentText
+            @|net\LeverLoader\main\LuckyBlockTimer.java|2162|2180|luckyblockgamemode|field|net.LeverLoader.main.LuckyBlockTimer|luckyblockgamemode
+         Method End: run()V
+      Anon Class End: net.LeverLoader.main.LuckyBlockTimer$1
+      @|net\LeverLoader\main\LuckyBlockTimer.java|2244|2252|schedule|method|java.util.Timer|schedule|(Ljava/util/TimerTask;J)V
+   Method End: isLuckyBlockGM()V
+Class End  : net.LeverLoader.main.LuckyBlockTimer
+endProcessing net\LeverLoader\main\LuckyBlockTimer.java
+
+processing net\LeverLoader\main\Main.java
+@|net\LeverLoader\main\Main.java|8|28|net.LeverLoader.main|package|net.LeverLoader.main|(file)
+Class Start: net.LeverLoader.main.Main
+   @|net\LeverLoader\main\Main.java|510|514|File|class|java.io.File
+   @|net\LeverLoader\main\Main.java|515|525|configFile|field|net.LeverLoader.main.Main|configFile|
+   @|net\LeverLoader\main\Main.java|551|557|String|class|java.lang.String
+   @|net\LeverLoader\main\Main.java|558|564|MOD_ID|field|net.LeverLoader.main.Main|MOD_ID|
+   @|net\LeverLoader\main\Main.java|597|603|String|class|java.lang.String
+   @|net\LeverLoader\main\Main.java|604|612|MOD_NAME|field|net.LeverLoader.main.Main|MOD_NAME|
+   @|net\LeverLoader\main\Main.java|654|660|String|class|java.lang.String
+   @|net\LeverLoader\main\Main.java|661|668|VERSION|field|net.LeverLoader.main.Main|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\LeverLoader\main\Main.java|716|720|init|method|net.LeverLoader.main.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\LeverLoader\main\Main.java|721|743|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\LeverLoader\main\Main.java|744|749|event|param|net.LeverLoader.main.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\LeverLoader\main\Main.java|765|779|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|net\LeverLoader\main\Main.java|780|789|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|net\LeverLoader\main\Main.java|790|798|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|net\LeverLoader\main\Main.java|803|818|LuckyBlockTimer|class|net.LeverLoader.main.LuckyBlockTimer
+      @|net\LeverLoader\main\Main.java|831|851|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|net\LeverLoader\main\Main.java|852|860|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|net\LeverLoader\main\Main.java|861|876|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|net\LeverLoader\main\Main.java|881|889|Commands|class|net.LeverLoader.main.Commands
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\LeverLoader\main\Main.java|938|945|preInit|method|net.LeverLoader.main.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\LeverLoader\main\Main.java|946|971|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\LeverLoader\main\Main.java|972|977|event|param|net.LeverLoader.main.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\LeverLoader\main\Main.java|1044|1054|configFile|field|net.LeverLoader.main.Main|configFile
+      @|net\LeverLoader\main\Main.java|1057|1062|event|param|net.LeverLoader.main.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\LeverLoader\main\Main.java|1063|1092|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
+      @|net\LeverLoader\main\Main.java|1104|1110|Config|class|net.LeverLoader.main.Config
+      @|net\LeverLoader\main\Main.java|1111|1129|LoadConfigSettings|method|net.LeverLoader.main.Config|LoadConfigSettings|(Ljava/io/File;)V
+      @|net\LeverLoader\main\Main.java|1130|1140|configFile|field|net.LeverLoader.main.Main|configFile
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : net.LeverLoader.main.Main
+endProcessing net\LeverLoader\main\Main.java
+
+processing net\LeverLoader\main\ReadScoreboard.java
+@|net\LeverLoader\main\ReadScoreboard.java|8|28|net.LeverLoader.main|package|net.LeverLoader.main|(file)
+Class Start: net.LeverLoader.main.ReadScoreboard
+   Method Start: readFromSlot(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;
+      @|net\LeverLoader\main\ReadScoreboard.java|245|257|readFromSlot|method|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;
+      @|net\LeverLoader\main\ReadScoreboard.java|229|244|ScorePlayerTeam|class|net.minecraft.scoreboard.ScorePlayerTeam
+      @|net\LeverLoader\main\ReadScoreboard.java|258|268|Scoreboard|class|net.minecraft.scoreboard.Scoreboard
+      @|net\LeverLoader\main\ReadScoreboard.java|269|274|board|param|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;|board|0
+      @|net\LeverLoader\main\ReadScoreboard.java|280|284|slot|param|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;|slot|1
+      @|net\LeverLoader\main\ReadScoreboard.java|300|310|Collection|class|java.util.Collection
+      @|net\LeverLoader\main\ReadScoreboard.java|311|326|ScorePlayerTeam|class|net.minecraft.scoreboard.ScorePlayerTeam
+      @|net\LeverLoader\main\ReadScoreboard.java|336|341|board|param|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;|board|0
+      @|net\LeverLoader\main\ReadScoreboard.java|342|350|getTeams|method|net.minecraft.scoreboard.Scoreboard|getTeams|()Ljava/util/Collection;
+      @|net\LeverLoader\main\ReadScoreboard.java|367|382|ScorePlayerTeam|class|net.minecraft.scoreboard.ScorePlayerTeam
+      @|net\LeverLoader\main\ReadScoreboard.java|430|447|getRegisteredName|method|net.minecraft.scoreboard.Team|getRegisteredName|()Ljava/lang/String;
+      @|net\LeverLoader\main\ReadScoreboard.java|450|456|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|net\LeverLoader\main\ReadScoreboard.java|467|471|slot|param|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;|slot|1
+      @|net\LeverLoader\main\ReadScoreboard.java|560|576|RuntimeException|class|java.lang.RuntimeException
+      @|net\LeverLoader\main\ReadScoreboard.java|577|583|String|class|java.lang.String
+      @|net\LeverLoader\main\ReadScoreboard.java|584|590|format|method|java.lang.String|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|net\LeverLoader\main\ReadScoreboard.java|630|634|slot|param|net.LeverLoader.main.ReadScoreboard|readFromSlot|(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;|slot|1
+   Method End: readFromSlot(Lnet/minecraft/scoreboard/Scoreboard;I)Lnet/minecraft/scoreboard/ScorePlayerTeam;
+Class End  : net.LeverLoader.main.ReadScoreboard
+endProcessing net\LeverLoader\main\ReadScoreboard.java
+
